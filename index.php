@@ -28,7 +28,7 @@
             <div class="container">
                 <a
                     class="navbar-brand fw-bold text-green-primary dd"
-                    href="./index.html"
+                    href="./index"
                 >
                     <i class="fas fa-home me-2"></i>StayScape
                 </a>
@@ -43,20 +43,20 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="./index.html"
+                            <a class="nav-link active" href="./index"
                                 >Home</a
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./services.html"
+                            <a class="nav-link" href="./services"
                                 >Services</a
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./about.html">About</a>
+                            <a class="nav-link" href="./about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./contact.html"
+                            <a class="nav-link" href="./contact"
                                 >Contact</a
                             >
                         </li>
@@ -89,7 +89,7 @@
                                 <li>
                                     <a
                                         class="dropdown-item"
-                                        href="my-bookings.html"
+                                        href="my-bookings"
                                         ><i class="fas fa-calendar me-2"></i>My
                                         Bookings</a
                                     >

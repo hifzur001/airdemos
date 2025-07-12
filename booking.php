@@ -20,7 +20,7 @@
             <div class="container">
                 <a
                     class="navbar-brand fw-bold text-green-primary"
-                    href="index.html"
+                    href="index"
                 >
                     <i class="fas fa-mountain me-2"></i>StayScape
                 </a>
@@ -36,7 +36,7 @@
                         </button>
                         <ul class="dropdown-menu">
                             <li>
-                                <a class="dropdown-item" href="my-bookings.html"
+                                <a class="dropdown-item" href="my-bookings"
                                     ><i class="fas fa-calendar me-2"></i>My
                                     Bookings</a
                                 >

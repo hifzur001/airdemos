@@ -242,7 +242,7 @@ function showDestinationDetails(cityName) {
                         ${getPriceRangeInfo(city.services)}
                         
                         <div class="d-grid gap-2 mt-4">
-                            <a href="services.html?city=${cityName}" class="btn btn-primary">
+                            <a href="services?city=${cityName}" class="btn btn-primary">
                                 <i class="fas fa-search me-2"></i>View All Services
                             </a>
                             <button class="btn btn-outline-primary" onclick="destinationModal.hide()">

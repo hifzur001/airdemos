@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 function checkAuth() {
     const userData = localStorage.getItem('currentUser');
     if (!userData) {
-        window.location.href = 'index.html';
+        window.location.href = 'index';
         return;
     }
 
@@ -327,5 +327,5 @@ function showAlert(message, type) {
 
 function logout() {
     localStorage.removeItem('currentUser');
-    window.location.href = 'index.html';
+    window.location.href = 'index';
 }

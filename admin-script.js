@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function checkAdminAuth() {
     const adminData = localStorage.getItem('currentAdmin');
     if (!adminData) {
-        window.location.href = 'admin-login.html';
+        window.location.href = 'admin-login';
         return;
     }
 
@@ -1299,7 +1299,7 @@ function filterServicesByCity() {
 // Logout function
 function logout() {
     localStorage.removeItem('currentAdmin');
-    window.location.href = 'admin-login.html';
+    window.location.href = 'admin-login';
 }
 
 // Make functions globally available

@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function checkAuth() {
     const userData = localStorage.getItem('currentUser');
     if (!userData) {
-        window.location.href = 'index.html';
+        window.location.href = 'index';
         return;
     }
     
@@ -24,7 +24,7 @@ function checkAuth() {
 function loadBookingDetails() {
     const bookingData = localStorage.getItem('currentBooking');
     if (!bookingData) {
-        window.location.href = 'index.html';
+        window.location.href = 'index';
         return;
     }
     
@@ -168,5 +168,5 @@ function formatPaymentMethod(method) {
 
 function logout() {
     localStorage.removeItem('currentUser');
-    window.location.href = 'index.html';
+    window.location.href = 'index';
 }

@@ -809,7 +809,7 @@ function handleMyBookingsPage() {
     if (!currentUser) {
         showAlert('Please login to view your bookings!', 'warning');
         setTimeout(() => {
-            window.location.href = 'index.html';
+            window.location.href = 'index';
         }, 2000);
         return;
     }
@@ -837,7 +837,7 @@ function showNoBookingsMessage() {
                 </div>
                 <h3 class="mb-3">No Bookings Yet</h3>
                 <p class="text-muted mb-4">You haven't made any bookings yet. Explore our amazing services and book your first experience!</p>
-                <a href="index.html" class="btn btn-success btn-lg">
+                <a href="index" class="btn btn-success btn-lg">
                     <i class="fas fa-search me-2"></i>Browse Services
                 </a>
             </div>
@@ -1187,7 +1187,7 @@ function logout() {
         window.location.pathname.includes('booking') ||
         window.location.pathname.includes('my-bookings')
     ) {
-        window.location.href = 'index.html';
+        window.location.href = 'index';
     }
 }
 
@@ -1203,7 +1203,7 @@ function initiateBooking() {
     }
 
     localStorage.setItem('selectedService', JSON.stringify(selectedService));
-    window.location.href = 'booking.html';
+    window.location.href = 'booking';
 }
 
 // Complete booking process with full data flow

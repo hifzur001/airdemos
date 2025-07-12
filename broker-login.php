@@ -235,7 +235,7 @@
         </style>
     </head>
     <body>
-        <a href="index.html" class="back-link">
+        <a href="index" class="back-link">
             <i class="fas fa-arrow-left me-2"></i>Back to Home
         </a>
 
@@ -380,7 +380,7 @@
                             );
 
                             // Redirect to broker panel
-                            window.location.href = 'broker-panel.html';
+                            window.location.href = 'broker-panel';
                         } else {
                             // Show error
                             const alert = document.createElement('div');

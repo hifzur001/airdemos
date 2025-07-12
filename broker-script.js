@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function checkBrokerAuth() {
     const brokerData = localStorage.getItem('currentBroker');
     if (!brokerData) {
-        window.location.href = 'broker-login.html';
+        window.location.href = 'broker-login';
         return;
     }
 
@@ -890,7 +890,7 @@ function resetForm() {
 
 function logout() {
     localStorage.removeItem('currentBroker');
-    window.location.href = 'broker-login.html';
+    window.location.href = 'broker-login';
 }
 
 // Make functions globally available

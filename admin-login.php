@@ -233,7 +233,7 @@
         </style>
     </head>
     <body>
-        <a href="index.html" class="back-link">
+        <a href="index" class="back-link">
             <i class="fas fa-arrow-left me-2"></i>Back to Home
         </a>
 
@@ -330,7 +330,7 @@
                             );
 
                             // Redirect to admin panel
-                            window.location.href = 'admin-panel.html';
+                            window.location.href = 'admin-panel';
                         } else {
                             // Show error
                             const alert = document.createElement('div');

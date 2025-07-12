@@ -20,7 +20,7 @@
             <div class="container">
                 <a
                     class="navbar-brand fw-bold text-green-primary"
-                    href="index.html"
+                    href="index"
                 >
                     <i class="fas fa-mountain me-2"></i>StayScape
                 </a>
@@ -36,7 +36,7 @@
                         </button>
                         <ul class="dropdown-menu">
                             <li>
-                                <a class="dropdown-item" href="my-bookings.html"
+                                <a class="dropdown-item" href="my-bookings"
                                     ><i class="fas fa-calendar me-2"></i>My
                                     Bookings</a
                                 >
@@ -69,7 +69,7 @@
                                 Bookings
                             </h2>
                             <a
-                                href="index.html"
+                                href="index"
                                 class="btn btn-outline-primary"
                             >
                                 <i class="fas fa-plus me-2"></i>Book New Service
@@ -92,7 +92,7 @@
                             <p class="text-muted mb-4">
                                 You haven't made any bookings yet.
                             </p>
-                            <a href="index.html" class="btn btn-primary">
+                            <a href="index" class="btn btn-primary">
                                 <i class="fas fa-search me-2"></i>Explore
                                 Services
                             </a>

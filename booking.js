@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
 function checkAuth() {
     const userData = localStorage.getItem('currentUser');
     if (!userData) {
-        window.location.href = 'index.html';
+        window.location.href = 'index';
         return;
     }
 
@@ -28,7 +28,7 @@ function checkAuth() {
 function loadSelectedService() {
     const serviceData = localStorage.getItem('selectedService');
     if (!serviceData) {
-        window.location.href = 'index.html';
+        window.location.href = 'index';
         return;
     }
 
@@ -253,7 +253,7 @@ function handleBookingSubmission(e) {
     localStorage.setItem('currentBooking', JSON.stringify(processedBooking));
 
     // Redirect to confirmation page
-    window.location.href = 'confirmation.html';
+    window.location.href = 'confirmation';
 }
 
 // Local booking completion if main script not available
@@ -308,5 +308,5 @@ function getPriceDisplay(service) {
 
 function logout() {
     localStorage.removeItem('currentUser');
-    window.location.href = 'index.html';
+    window.location.href = 'index';
 }
