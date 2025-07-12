@@ -1,4 +1,7 @@
-        <!-- Footer -->
+<?php
+include 'auth/login.php';
+?>
+<!-- Footer -->
         <footer class="bg-dark text-white py-5">
             <div class="container">
                 <div class="row">

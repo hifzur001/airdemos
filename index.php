@@ -245,7 +245,6 @@ include 'layout/header.php';
         </section>
 
 <?php
-include 'auth/login.php';
 include 'layout/footer.php';
 ?>
 
