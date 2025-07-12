@@ -1,0 +1,26 @@
+RewriteEngine On
+RewriteBase /
+
+# --- Remove .html extension ---
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} \.html$ [NC]
+RewriteRule ^(.*)\.html$ /$1 [R=301,L]
+
+# --- Remove .php extension ---
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} \.php$ [NC]
+RewriteRule ^(.*)\.php$ /$1 [R=301,L]
+
+# --- Map clean URLs to actual .html files ---
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# --- Map clean URLs to actual .php files ---
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^(.*)$ $1.php [L]
